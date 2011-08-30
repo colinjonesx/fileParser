@@ -1,3 +1,9 @@
+/**
+ * This is where one of a number of log files could be parsed
+ * if only the file pointers were allowed to be passed to the
+ * worker threads :(
+ */
+
 function parseTimestamp(dtString){
   dtString = dtString.substring(0,dtString.indexOf('['));
   //console.log(dtString);
